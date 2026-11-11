@@ -1,0 +1,29 @@
+// Svelte Piano
+// Version v1.0.0
+// By OXOP
+// NoPan Regular
+// Made at 11.11.2026
+
+<group>
+amp_veltrack=100
+ampeg_attack=0.000999942
+cutoff=4978
+fil_type=lpf_2p
+fil_veltrack=2400
+loop_mode=no_loop
+
+<region> sample=samples\C3.wav
+lokey=0 hikey=51
+pitch_keycenter=48
+
+<region> sample=samples\C4.wav
+lokey=52 hikey=63
+pitch_keycenter=60
+
+<region> sample=samples\C5.wav
+lokey=64 hikey=74
+pitch_keycenter=72
+
+<region> sample=samples\C6.wav
+lokey=75 hikey=127
+pitch_keycenter=84
